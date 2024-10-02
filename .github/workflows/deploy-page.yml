@@ -9,7 +9,7 @@ on:
     branches:
       - master
   workflow_dispatch:
-  
+
 
 jobs:
   deploy:
@@ -39,4 +39,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-          cname: status.pegasus.cloud
+          cname: peg-svs.github.io
