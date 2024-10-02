@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Test
+title: Pegasus Cloud Services
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -143,8 +143,8 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: RZ Ingolstadt
-      description: The main servers RZ Ingolstadt
+    - name: OpenNebula Cloud Services
+      description: All OpenNebula Cloud Services
 
 
   # These are your systems. Change them to
@@ -155,8 +155,16 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: RZ Ingolstadt
+    - name: Frontend
+      category: OpenNebula Cloud Services
+    - name: Backend
+      category: OpenNebula Cloud Services
+    - name: Storage Backend
+      category: OpenNebula Cloud Services
+    - name: Host Backend
+      category: OpenNebula Cloud Services
+    - name: Network Backend
+      category: OpenNebula Cloud Services
 
 
   # What date format to use?
@@ -228,7 +236,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "monthly"
 
   # Should incident history be hidden?
   #
@@ -284,10 +292,12 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+   - name: Pegasus GmbH
+     link: https://www.pegasus-gmbh.de/
+
+   - name: Pegasus Cloud
+     link: https://www.pegasus.cloud/
 
   # Disable complex server-side
   # calculations that may impact
@@ -319,7 +329,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#002a40"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
