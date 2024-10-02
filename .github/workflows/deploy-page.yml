@@ -9,14 +9,25 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
     permissions:
       contents: write
     steps:
+
       # Clones the repository. We also want the submodules, thats where the theme lies.
       - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
+          
+      # Enable caching for Hugo modules
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HUGO_CACHEDIR }} 
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
 
       # Download, and sets up HUGO, ready for use in GHActions
       - name: Setup Hugo
