@@ -14,6 +14,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      actions: write
     steps:
       # Clones the repository. We also want the submodules, thats where the theme lies.
       - uses: actions/checkout@v4
@@ -36,7 +40,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
           cname: peg-svs.github.io
