@@ -125,6 +125,7 @@ collections:
             options:
             - { label: "🇺🇸 English (default)", value: "en" }
             - { label: "🇱🇹 Lietuviškai (official)", value: "lt" }
+            - { label: "🇪🇸 Spanish", value: "es" }
             - { label: "🇹🇷 Turkish", value: "tr" }
             - { label: "🇩🇪 Deutsch", value: "de" }
             - { label: "🇳🇱 Dutch", value: "nl" }
@@ -137,6 +138,8 @@ collections:
             - { label: "🇺🇦 Ukrainian", value: "uk" }
             - { label: "🇸🇪 Swedish", value: "se" }
             - { label: "🇮🇩 Indonesian", value: "id" }
+            - { label: "🇵🇱 Polska", value: "pl" }
+            - { label: "🇷🇺 Русский", value: "ru" }
           - label: 'Site language in code for html[lang]'
             hint: 'Use the ISO 639-1 defined abbreviations. Examples: en, lt, de. Fully explained here: https://github.com/cstate/cstate/wiki/Customization#changing-site-language'
             name: 'languageCode'
