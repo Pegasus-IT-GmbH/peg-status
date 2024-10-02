@@ -8,6 +8,8 @@ on:
     #   - ".github/workflows/deploy-page.yml"
     branches:
       - master
+  workflow_dispatch:
+  
 
 jobs:
   deploy:
