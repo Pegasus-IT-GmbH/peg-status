@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><link rel="alternate" type="text/html" href="http://peg-svs.github.io/cstate-test/"/><title>OpenNebula Cloud Services on Pegasus Cloud Status Monitor</title><link>http://peg-svs.github.io/cstate-test/affected/opennebula-cloud-services/</link><description>Vorfallshistorie</description><generator>github.com/cstate</generator><language>de</language><lastBuildDate>2024-10-02T15:30:00+00:00</lastBuildDate><updated>2024-10-02T15:30:00+00:00</updated><atom:link href="http://peg-svs.github.io/cstate-test/affected/opennebula-cloud-services/index.xml" rel="self" type="application/rss+xml"/><item><title>Wartungsarbeiten</title><link>http://peg-svs.github.io/cstate-test/issues/2024-10-02-wartungsarbeiten/</link><pubDate>Wed, 02 Oct 2024 15:30:00 +0000</pubDate><guid>http://peg-svs.github.io/cstate-test/issues/2024-10-02-wartungsarbeiten/</guid><category/><description>&lt;p>Sehr geehrte Damen und Herren,
-heute um 15:30 Uhr finden kurzfristig Wartungsarbeiten an unserer Pegasus Cloud Umgebung statt.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><link rel="alternate" type="text/html" href="http://peg-svs.github.io/cstate-test/"/><title>OpenNebula Cloud Services on Pegasus Cloud Status Monitor</title><link>http://peg-svs.github.io/cstate-test/affected/opennebula-cloud-services/</link><description>Vorfallshistorie</description><generator>github.com/cstate</generator><language>de</language><lastBuildDate>2024-10-02T15:30:00+00:00</lastBuildDate><updated>2024-10-02T15:30:00+00:00</updated><atom:link href="http://peg-svs.github.io/cstate-test/affected/opennebula-cloud-services/index.xml" rel="self" type="application/rss+xml"/><item><title>[Gelöst] Wartungsarbeiten</title><link>http://peg-svs.github.io/cstate-test/issues/2024-10-02-wartungsarbeiten/</link><pubDate>Wed, 02 Oct 2024 15:30:00 +0000</pubDate><guid>http://peg-svs.github.io/cstate-test/issues/2024-10-02-wartungsarbeiten/</guid><category>2024-10-02 16:30:00</category><description>&lt;p>Update: Die Wartungsarbeiten wurden erfolgreich abgeschlossen.&lt;/p>
+&lt;p>Sehr geehrte Damen und Herren,&lt;/p>
+&lt;p>heute um 15:30 Uhr finden kurzfristig Wartungsarbeiten an unserer Pegasus Cloud Umgebung statt.
 Hierbei sind auf Grund der Redundanten Strukturen keine Unterbrechungen zu erwarten.&lt;/p>
-&lt;p>Hintergrund ist ein notwendiges Update des Storageherstellers.
-Mit freundlichen Grüßen
-Ihr Pegasus-Team&lt;/p></description><content type="html">&lt;p>Sehr geehrte Damen und Herren,
-heute um 15:30 Uhr finden kurzfristig Wartungsarbeiten an unserer Pegasus Cloud Umgebung statt.
+&lt;p>Hintergrund ist ein notwendiges Update des Storageherstellers.&lt;/p>
+&lt;p>Mit freundlichen Grüßen
+Ihr Pegasus-Team&lt;/p></description><content type="html">&lt;p>Update: Die Wartungsarbeiten wurden erfolgreich abgeschlossen.&lt;/p>
+&lt;p>Sehr geehrte Damen und Herren,&lt;/p>
+&lt;p>heute um 15:30 Uhr finden kurzfristig Wartungsarbeiten an unserer Pegasus Cloud Umgebung statt.
 Hierbei sind auf Grund der Redundanten Strukturen keine Unterbrechungen zu erwarten.&lt;/p>
-&lt;p>Hintergrund ist ein notwendiges Update des Storageherstellers.
-Mit freundlichen Grüßen
+&lt;p>Hintergrund ist ein notwendiges Update des Storageherstellers.&lt;/p>
+&lt;p>Mit freundlichen Grüßen
 Ihr Pegasus-Team&lt;/p></content></item></channel></rss>
