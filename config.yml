@@ -176,8 +176,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: 2. Januar 2006 - 10:00
-  shortDateFormat: 10:00 — 02.01.06
+  dateFormat: 02.01.2006 um 15:04 Uhr
+  shortDateFormat: 02.01.06 15:04
 
   # Should relative time (x min ago) be used?
   #
