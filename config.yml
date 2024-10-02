@@ -292,12 +292,12 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  customTabs:
-   - name: Pegasus GmbH
-     link: https://www.pegasus-gmbh.de/
-
-   - name: Pegasus Cloud
-     link: https://www.pegasus.cloud/
+  # customTabs:
+  #  - name: Pegasus GmbH
+  #    link: https://www.pegasus-gmbh.de/
+  # 
+  #  - name: Pegasus Cloud
+  #    link: https://www.pegasus.cloud/
 
   # Disable complex server-side
   # calculations that may impact
