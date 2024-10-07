@@ -2,7 +2,7 @@
 title: Wartungsarbeiten
 date: 2024-10-02 15:30:00 
 informational: true
-pin: true 
+pin: false 
 section: issue
 severity: notice
 resolved: true
